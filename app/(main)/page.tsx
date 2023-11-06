@@ -1,7 +1,5 @@
 import Link from "next/link";
-import { buttonVariants } from "@/components/ui/button";
 import { auth } from "@clerk/nextjs";
-import { UserButton } from "@clerk/nextjs";
 
 export default function Home() {
   const { userId } = auth(); // Assuming auth() returns user information
